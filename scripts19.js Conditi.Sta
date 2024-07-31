@@ -1,0 +1,113 @@
+// conditional statements and switch case
+
+//one input and multiple outcomes
+//music concerr
+//numT > 0 && numT <=10 ------20%
+//numT >10 && numT <=20----30% discount
+//numT > 20           -----40% discount
+
+let numT = 10
+
+// if(numT > 0 && numT <= 10){
+//     console.log("20 % discount")
+// }
+// if (numT > 10 && numT <= 20){
+//     console.log("30 % discount")
+// }
+// if(numT > 20 ){
+//     console.log("40 % discount")
+// }
+
+numT = 12
+if (numT > 0 && numT <=10){
+    console.log("20% discount")
+}
+else if(numT > 10 && numT <= 20){
+    console.log("30% discount")
+}
+else if(numT > 20){
+    console.log("40% discount")
+}
+ else {
+    console.log("incorrect input")
+ }   
+
+// program 
+
+let marks = 80
+
+// if(marks > 75){
+//     console.log("Grade P")
+// }
+// if(marks >= 70){
+//     console.log("Grade Q")
+// }
+// if(marks >= 65){
+//     console.log("Grade R")
+// }
+
+
+//
+
+if(marks > 75){
+    console.log("Grade P")
+}
+else if(marks >= 70){
+    console.log("Grade Q")
+}
+else if(marks >= 65){
+    console.log("Grade R")
+}
+else {
+    console.log("please try again...!")
+}
+
+// program
+
+let p = 20
+let q = 15
+
+if (p > q){
+    console.log("p is greater")
+}
+else {
+    console.log("q is greater")
+}
+
+// program 
+
+let b1 = 20
+let b2 = 100
+let b3 = 5
+
+if (b1 > b2 && b1 > b3){
+    console.log("b1 is greater")
+}
+else if (b2 > b1 && b2 > b3){
+    console.log("b2 is greater")
+}
+else {
+    console.log("b3 is greater")
+}
+
+// Tenary operator
+
+let p1 = 20
+let r2 = 600
+
+if(p1 > r2){
+    console.log("p1 is greater")
+}
+else {
+    console.log("r2 is greater")
+}
+
+// condition ?statement 1 : statement 2
+
+p1 > r2 ? console.log("p1 is greater"):console.log("r2 is greater")
+
+// program
+
+age = 19 
+e = age >= 19 ? "can drive" :  "cannot drive"
+console.log(e)

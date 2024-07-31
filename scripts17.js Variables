@@ -1,0 +1,76 @@
+// variables
+
+let a = 20
+console.log(a)
+a = 400
+console.log(a)
+
+const h = 2000
+console.log(h)
+//h = 2000
+
+//Arithmetic operation
+
+let p = 10
+let r = 22
+
+console.log(p + r)
+console.log(p - r)
+console.log(p * r)
+console.log(p / r)
+console.log(p % r)
+
+let c = 9
+let d = 4
+
+console.log(c + d)
+console.log(c - d)
+console.log(c * d)
+console.log(c / d)
+console.log(c % d)
+
+//10 pairs - 50 lines
+
+function calculator(x,y){
+    console.log(x+y)
+    console.log(x-y)
+    console.log(x*y)
+    console.log(x/y)
+    console.log(x%y)
+}
+calculator(5,1)
+calculator(3,2)
+
+//function without parameter and without return type
+
+function add(){
+    console.log(8+8)
+}
+add()
+add()
+add()
+
+//function with parameter and without return type
+
+function addB(x,y){
+    console.log(x+y)
+}
+addB(10,3)
+addB(12,6)
+addB(8,8)
+
+//function with parameter and with return type
+
+function addC(x,Y){
+    return x + Y
+}
+let c1 = addC(14,5)
+console.log(c1)
+console.log(c1 + c1)
+console.log(c1 / 5)
+console.log(c1 * 0.10)
+
+
+
+
+

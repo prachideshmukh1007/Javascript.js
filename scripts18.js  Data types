@@ -1,0 +1,68 @@
+// Types
+
+let p = 20
+console.log(p)
+console.log(typeof p)
+//10, -10.8 ,-10, 10.6, 
+
+let q = true
+console.log(q)
+console.log(typeof q)
+//true  or false
+
+let r = "onkar"
+console.log(r)
+console.log(typeof r)
+//"A", "1" , "" ,"567778" ,"!56bh"
+
+// comperision operators
+
+// < ,>,<= ,>=
+//== ,!= -----value
+//=== , !== -----value and type
+//enity < enity -----boolean-----true or false
+
+console.log(12 === '12')
+console.log(12 === 12)
+console.log(12 !== '12')
+console.log(12 !== 12)
+console.log(12 =='12')
+console.log(12 != '12')
+console.log(12 != 12)
+console.log(12 > 3)
+console.log(12 < 3)
+console.log(12 >= 12)
+console.log(12 <= 12)
+console.log(8 >= 4)
+console.log(8 <= 4)
+
+// logical operators
+
+// && - AND
+// true && true ---- true
+// false && true---false
+// true && false----false
+// false && false---false
+
+console.log(9 == 9 &&   9 == 9)
+console.log(8 === '8' && 8 !== '8')
+console.log(5 == '5' && 5 !== 5)
+console.log(4 === 5 && 4 === 5)
+
+// || - OR
+// true || true----true
+// false || true---true
+// true || false---true
+// false || false---false
+
+console.log(9 == 9 ||  9 == 9)
+console.log(8 === '8' || 8 !== '8')
+console.log(5 == '5' || 5 !== 5)
+console.log(4 === 5 || 4 === 5)
+
+// !  - NOT
+// !true---false
+//!false ---true
+
+console.log(!(7 == '7'))
+console.log(!(7 === '7'))
