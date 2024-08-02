@@ -1,0 +1,103 @@
+// loop
+
+// for loop and while loop
+//for(intialization; conditioncheck; increment/decrement){
+//    // statements
+//}
+// i++ -- increment value of i by 1
+// i-- -- decrement value of i by 1
+// exist --- break statement
+// loop continue ---- continue statement
+
+// for loop
+// print 1 to 3
+for (let i = 1 ; i <= 5 ; i++){ //2//3//4//5//6
+    console.log(i) //1//2//3//4//5
+}
+
+// print "hello" 3 times
+for (let i = 1 ; i <= 3; i++) //2//3//4
+    console.log("hello") //"hello"//"hello"//"hello"
+
+// print table of 2 using for loop
+for(let i = 2; i <= 20 ;i = i+2) //4//6//12----22
+    console.log(i) //2//4//6-----20
+
+// print table of 5 in reverse
+for(let i = 50; i >= 5 ; i - 5){ //45//40---0
+    console.log(i) //50//45//40----5
+}
+
+// for loop with break 
+
+for (let i = 5 ; i >=1 ; i--){ //4//3
+    if(i == 3){
+        break
+    }
+    console.log(i) //5//4
+}
+
+// continue with for loop
+
+for (let i = 1 ; i <= 5 ; i++){ //2//3//4//5//6
+    if(i == 3){
+        continue
+    }
+    console.log(i) //1//2//4//5
+}
+
+
+//intialization
+//while(conditionCheck){
+     // statements
+     // Increment / drecement
+//}
+// while loop
+
+let i5 = i5
+
+while(i5 >= 1){
+    console.log(i5) //5//4//3//2//1
+     i5 = i5 - 1 //4//3//2//1//0
+}
+
+// print "hello" 3 times
+let i1 = 1
+while(i1 <= 3){
+    console.log("hello") //"hello"//"hello"//"hello"
+    i1 = i1 + 1 //2//3//4
+}
+
+// print table of 2 using while loop
+let i2 = 2
+while(i2 <= 20){
+    console.log(i2)//4//6----22
+    i2 = i2 + 2 //2//4---20
+}
+
+//while loop with break
+// print 1 to 5
+let i6 = 1
+
+while(i6 <= 5){
+    console.log(i6) //1//2//3
+    if (i6 == 3){
+        break
+    }
+    i6 = i6 + 1 //2//3//
+}
+
+// continue with while loop
+
+let i7 = 1
+
+while(i7 <= 5){
+    if(i7 == 3){ 
+        i7 = i7 + 1 //4
+        continue
+    }
+    console.log(i7) //1//2//4//5
+    i7 = i7 + 1 //2//3//5//6
+
+}
+

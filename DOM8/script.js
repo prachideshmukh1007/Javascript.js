@@ -1,9 +1,9 @@
-let ullist = document.querySelector('ul')
+let ulList = document.querySelector('ul')
 let inputE = document.querySelector('input')
 let buttonOne = document.querySelector('#One')
 
 console.log(ulList)
-console.log(inputT)
+console.log(inputE)
 console.log(buttonOne)
 
 buttonOne.addEventListener('click',function(){
@@ -11,8 +11,8 @@ buttonOne.addEventListener('click',function(){
 let newLi = document.createElement('li') //<li></li>
 newLi.textContent = fruitText //<li></li>
  creatButtons(newLi)
- uilist.appenChild(newLi)
- input.value = ""
+ ulList.appendChild(newLi)
+ inputE.value = ""
 })
 
 ulList.addEventListener('click',function(event){
