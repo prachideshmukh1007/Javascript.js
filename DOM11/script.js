@@ -2,9 +2,15 @@
     <p Class = "one">Learning updates</p>*/}
 
 // javascript element create
-// javascript element update
-// javascript element - retrive
+// javascript element - update
+//  javascript element retrive
 // javascript element delete
+
+// javascript attribute create
+// javascript attribute update
+// javascript attribute delete
+// javascript attribute value retrive
+
 
 // attribute
 
